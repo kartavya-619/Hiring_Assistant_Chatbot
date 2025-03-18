@@ -20,11 +20,11 @@ steps = [
 
 # Initialize session state
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": "Hey! I will assist you in applying for jobs."}]
+    st.session_state.messages = [{"role": "assistant", "content": "Hello and welcome to TalentScout! 👋 I'm your AI Hiring Assistant, here to help with your job application. I'll gather some details about you and ask a few technical questions based on your expertise. Let's get started! Please enter your full name."}]
 if "user_info" not in st.session_state:
     st.session_state.user_info = {}
 if "current_step" not in st.session_state:
-    st.session_state.current_step = -1
+    st.session_state.current_step = 0
 if "tech_questions" not in st.session_state:
     st.session_state.tech_questions = []
 if "responses" not in st.session_state:
