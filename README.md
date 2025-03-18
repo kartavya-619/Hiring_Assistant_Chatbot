@@ -40,7 +40,8 @@ The **Hiring Assistant Chatbot** is an AI-powered chatbot designed to streamline
 - **Natural Language Processing (NLP)** for understanding user queries
 - **Database** for storing candidate information
 
-## Try it out: https://hiringassistantchatbot619.streamlit.app/
+## Try it out: 
+- https://hiringassistantchatbot619.streamlit.app/
 
 ## Contribution
 Contributions are welcome! Feel free to open issues or submit pull requests.
